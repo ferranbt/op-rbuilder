@@ -44,6 +44,8 @@ jobs:
         configs:
           - target: linux/amd64
             runner: ubuntu-latest
+          - target: linux/arm64
+            runner: ubuntu-latest
     steps:
       - name: checkout sources
         uses: actions/checkout@v4
